@@ -1,0 +1,17 @@
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\bin\Debug\net6.0-windows\EditorSCOD.exe
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\bin\Debug\net6.0-windows\EditorSCOD.deps.json
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\bin\Debug\net6.0-windows\EditorSCOD.runtimeconfig.json
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\bin\Debug\net6.0-windows\EditorSCOD.dll
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\bin\Debug\net6.0-windows\EditorSCOD.pdb
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\EditorSCOD.csproj.AssemblyReference.cache
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\EditorSCOD.csproj.GenerateResource.cache
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\EditorSCOD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\EditorSCOD.AssemblyInfoInputs.cache
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\EditorSCOD.AssemblyInfo.cs
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\EditorSCOD.csproj.CoreCompileInputs.cache
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\EditorSCOD.dll
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\refint\EditorSCOD.dll
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\EditorSCOD.pdb
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\EditorSCOD.genruntimeconfig.cache
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\ref\EditorSCOD.dll
+C:\Users\cteds_07\Documents\SCOD\EditorSCOD\EditorSCOD\obj\Debug\net6.0-windows\EditorSCOD.SCOD.resources
