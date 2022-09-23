@@ -11,9 +11,9 @@ namespace EditorSCOD
         {
 
         }
-        private void Form1_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+
+        private void SCOD_FormClosing(object sender, FormClosingEventArgs e)
         {
-            // Determine if text has changed in the textbox by comparing to original text.
             if (richTextBox1.Text != "")
             {
                 // Display a MsgBox asking the user to save changes or abort.
@@ -25,6 +25,7 @@ namespace EditorSCOD
                     // Call method to save file...
                 }
             }
+
         }
     }
 }

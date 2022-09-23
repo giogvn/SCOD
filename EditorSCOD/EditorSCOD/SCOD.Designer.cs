@@ -48,6 +48,7 @@
             this.Controls.Add(this.richTextBox1);
             this.Name = "SCOD";
             this.Text = "SCOD";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SCOD_FormClosing);
             this.ResumeLayout(false);
 
         }
