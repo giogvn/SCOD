@@ -43,7 +43,9 @@ namespace EditorSCOD
                    MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     e.Cancel = true;
+                   
                     this.SaveFile();
+                    richTextBox1.Text = "";
                 }
                 Application.Exit();
             }
