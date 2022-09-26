@@ -13,9 +13,21 @@ namespace EditorSCOD
         {
 
         }
-
+        public string filename;
+        public bool saved = false;
+        public string last_saved_text = "";
         private void SaveFile()
         {
+            Encoding unicode = Encoding.Unicode;
+            if (saved == true)
+            {
+                using (StreamWriter writer = new StreamWriter(filename))
+                {
+                    writer.Write(richTextBox1.Text);
+                    MessageBox.Show("Alterações salvas.", "My Application");
+                }
+                return;
+            }
             Stream myStream;
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
             saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
@@ -25,7 +37,8 @@ namespace EditorSCOD
             {
                 if ((myStream = saveFileDialog1.OpenFile()) != null)
                 {
-                    Encoding unicode = Encoding.Unicode;
+                    filename = saveFileDialog1.FileName;
+                    saved = true;
                     myStream.Write(unicode.GetBytes(richTextBox1.Text));
                     myStream.Close();
                 }
@@ -39,7 +52,7 @@ namespace EditorSCOD
         {
             if (richTextBox1.Text != "")
             {
-                if (MessageBox.Show("Do you want to save changes to your text?", "My Application",
+                if (MessageBox.Show("Você quer salvar suas alterações?", "My Application",
                    MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     e.Cancel = true;
@@ -50,6 +63,25 @@ namespace EditorSCOD
                 Application.Exit();
             }
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Font = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size+1);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if(richTextBox1.Font.Size > 1)
+            {
+                richTextBox1.Font = new Font(richTextBox1.Font.FontFamily, richTextBox1.Font.Size - 1);
+            }
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.SaveFile();
         }
     }
 }
