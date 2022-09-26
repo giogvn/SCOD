@@ -45,8 +45,8 @@ namespace EditorSCOD
                     e.Cancel = true;
                    
                     this.SaveFile();
-                    richTextBox1.Text = "";
                 }
+                richTextBox1.Text = "";
                 Application.Exit();
             }
 
