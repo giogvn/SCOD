@@ -1,2 +1,2 @@
 # SCOD
-A simple C# collaborative text editor
+A simple C# text editor using the Windows Form API
